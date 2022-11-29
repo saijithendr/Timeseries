@@ -1,2 +1,5 @@
 pandas
 sklearn
+keras
+numpy
+matplotlib
