@@ -25,7 +25,7 @@ class TimeSeriesData:
     def __call__(self):
         return self.df
     
-    def series_data(self, target_col: str, start, end):
+    def series_data(self, target_col: str):
                 
         if self.start and self.end is not None:
             df = self.df.loc[
