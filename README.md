@@ -8,3 +8,7 @@ conda create -n <NAME> python=3.10 -y
 ```
 pip install -r requirements.txt
 ```
+- Training the model
+```
+python src/main.py
+```
